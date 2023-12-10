@@ -6,9 +6,6 @@ import districtsSF from "./districts_sf.json"
 
 mapboxgl.accessToken = 'pk.eyJ1IjoieWFudHNlbnRlciIsImEiOiJjbG5wYzY4b2wwYTJmMmlvMTBqYjkyY2VoIn0.95vb98mxkUb4pzEpO_rF0Q';
 
-console.log(districtsSF)
-console.log(districtsData)
-
 const Map = () => {
     const mapContainerRef = useRef(null);
 

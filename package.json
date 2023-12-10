@@ -1,5 +1,6 @@
 {
-  "name": "basic",
+  "name": "polis_personal",
+  "homepage": "https://polis.yantsenter.com/",
   "version": "0.1.0",
   "dependencies": {
     "mapbox-gl": "^2.15.0",
@@ -21,7 +22,11 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "not safari < 10",
+      "not chrome < 51",
+      "not android < 5",
+      "not ie < 12"
     ],
     "development": [
       "last 1 chrome version",

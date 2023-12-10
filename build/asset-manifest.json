@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d32a5ba5.css",
+    "main.js": "/static/js/main.7d9b3788.js",
+    "static/media/polis_logo.png": "/static/media/polis_logo.9b89bba713c7c238afcb.png",
+    "static/media/polis_logo_name.png": "/static/media/polis_logo_name.6ff3ec5b62e006e71bad.png",
+    "index.html": "/index.html",
+    "main.d32a5ba5.css.map": "/static/css/main.d32a5ba5.css.map",
+    "main.7d9b3788.js.map": "/static/js/main.7d9b3788.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d32a5ba5.css",
+    "static/js/main.7d9b3788.js"
+  ]
+}
