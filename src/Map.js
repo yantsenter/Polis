@@ -72,6 +72,22 @@ const Map = () => {
                   }
               });
 
+            // Change the cursor to a pointer when the mouse is over the places layer.
+            map.on('mouseenter', `district${index}`, function () {
+                map.getCanvas().style.cursor = 'pointer';
+
+                // Highlight the layer by increasing the opacity.
+                map.setPaintProperty(`district${index}`, 'fill-opacity', 0.65);
+            });
+
+            // Change it back to a pointer when it leaves.
+            map.on('mouseleave', `district${index}`, function () {
+                map.getCanvas().style.cursor = '';
+                
+                // Reset the layer opacity.
+                map.setPaintProperty(`district${index}`, 'fill-opacity', 0.4);
+            });
+
               map.on('click', `district${index}`, (e) => {
                 if (e.features.length) {
     
